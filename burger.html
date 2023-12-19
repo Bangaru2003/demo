@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burger</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <style>
+       
+        
+        body{
+            border-image: url("http://data:image/jpeg;base64,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");
+            text-align: center;
+            border: 5px solid gray;
+             margin: 300px;
+            line-height: 20px;
+           
+        }
+
+      hr{
+          width: 50px; 
+          height: 0px;
+          background-color: silver;
+        }   
+        
+    </style>
+    
+    
+  
+</head>
+<body> 
+    <header>
+     <img src="https://media.istockphoto.com/id/1254988167/vector/engraving-burger-silhouette-with-texture-hand-drawn-style-effect-vector-illustration.jpg?s=612x612&w=0&k=20&c=FdYJH1MQtWmhMx9njmPMOF_NyvQlZUgWh7dBS8_EVbE="
+    alt=" Gold's burger" id="logo">
+    <hr>
+    </header>
+    <form>
+        <form action="submissiom.html" method="POST">
+    
+    
+    <lable for="protien" >>what type if protien do u like?</lable><br>
+<input type="text" name="patty" value="beef">
+<hr>
+
+<lable for="amount">how mamy patties would u like?</lable><br>
+<input type="number" name="amount" value="2">
+<hr>
+<lable for= "cooked"> how do u want to cooked?</lable><br>
+<input type="cooked"><br>
+<span>Rare</span>
+<input type="range" value="3" min="1" max="5">
+<span>welldone</span>
+<hr>
+<span>What toppings would you like?</span><br>
+
+<input type="checkbox" name="topping"  value="lettuce">
+<lable for="lettuce">lettuce</lable>
+
+<input type="checkbox" name="topping" value="tamoto">
+<lable for="tamoto">tomoto</lable>
+
+<input type="checkbox" name="topping" value="onion">
+<label for="onion">onion</label><hr>
+
+<span>would u like add cheese</span><br>
+
+<input type="radio" name="cheese">
+<label for="yes">yes</label>
+
+<input type="radio" name="cheese">
+<lable for="no">no</lable>
+<hr>
+ <lable for="bun-type">what type of bun would u like</lable><br>
+ <select name="bun" value="bun">
+ <option value="sesame">sesame</option>
+ <option value="potato">potato</option>
+ <optiuon value="pretzel">pretzel</optiuon>
+</select>
+<hr>
+
+<lable for="sauce-type">what type of sauce do u like?</lable><br>
+<input list="sauce" name="sauce">
+<datalist="sauce"></datalist>
+    <option value="mustard">mustard</option>
+    <option value="ketchup">ketchup</option>
+    <option value="mayo"></option>
+    </select>
+<hr>
+    <lable for="extra">anything else want to do add</lable>><br>
+    <textarea value="extra" name="extra" rows="3" cols="40"></textarea>
+<hr>
+<section class="submission">
+    <input type="submit" value="Submit">
+  </section>
+</form>
+
+</body>
+</html>
